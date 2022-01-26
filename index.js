@@ -53,7 +53,7 @@ isSelf = false
 isPublic = true
 
 //JANGAN DI GANTI
-fakeyoi = ["Lexxy Official"]
+fakeyoi = ["nisabotz"]
 api = ["https://myselfff.herokuapp.com/docs"]
 simbol = ["•"]
 const botName = setting.BotName
@@ -211,7 +211,7 @@ const ftex = {
 key: { 
 fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? 
-{ remoteJid: "6289643739077-1613049930@g.us" } : {}) 
+{ remoteJid: "6289654451511-1613049930@g.us" } : {}) 
 },
 message: { 
 "extendedTextMessage": {
@@ -229,7 +229,7 @@ const ftt = {
 key: {fromMe: false ,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "16505434800@s.whatsapp.net" } : {})},message: { "extendedTextMessage": {"text": `${fakeyoi}`,"title": `Hmm`,'jpegThumbnail': fs.readFileSync('./gambar/fake.jpg')}}}
 //FAKE VIDEO
 const flexx = {
-key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {}) },message: { "videoMessage": { "title":"hallo bang","h": `Hmm`,'seconds': '-99999', 'caption': `${fakeyoi}`,'jpegThumbnail': fs.readFileSync('./gambar/fake.jpg')}}}
+key: {fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289654451511-1613049930@g.us" } : {}) },message: { "videoMessage": { "title":"hallo bang","h": `Hmm`,'seconds': '-99999', 'caption': `${fakeyoi}`,'jpegThumbnail': fs.readFileSync('./gambar/fake.jpg')}}}
 //FAKE GRUP
 const fgc = {
 key: {"fromMe": false,"participant": "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "62895619083555-1616169743@g.us","inviteCode": "mememteeeekkeke","groupName": "P", "caption": `${fakeyoi}`, 'jpegThumbnail': fs.readFileSync('./gambar/fake.jpg')}}}

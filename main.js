@@ -10,24 +10,24 @@ const { banner, start, success } = require('./lib/functions')
 const { color } = require('./lib/color')
 require('./index.js')
 nocache('./index.js', module => console.log(`${module} Telah Di Update✓`))
-const starts = async (Lexxy = new WAConnection()) => {
-Lexxy.logger.level = 'warn'
-Lexxy.version = [2, 2143, 8]
-Lexxy.browserDescription = ["Lexxy Official", "safari", "windows 10"];
+const starts = async (nisabotz = new WAConnection()) => {
+nisabotz.logger.level = 'warn'
+nisabotz.version = [2, 2143, 8]
+nisabotz.browserDescription = ["nisabotz", "safari", "windows 10"];
 console.log(banner.string)
-Lexxy.on('qr', () => {
+nisabotz.on('qr', () => {
 console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan bang'))})
-fs.existsSync('./session.json') && Lexxy.loadAuthInfo('./session.json')
-Lexxy.on('connecting', () => {
+fs.existsSync('./session.json') && Nisa.loadAuthInfo('./session.json')
+nisabotz.on('connecting', () => {
 start('2', 'Connecting...')})
-Lexxy.on('open', () => {
+nisabotz.on('open', () => {
 success('2', 'Connected')})
-await Lexxy.connect({timeoutMs: 30*1000})
-fs.writeFileSync('./session.json', JSON.stringify(Lexxy.base64EncodedAuthInfo(), null, '\t'))
-Lexxy.on('chat-update', async (message) => {
-require('./index.js')(Lexxy, message)})}
+await nisabotz.connect({timeoutMs: 30*1000})
+fs.writeFileSync('./session.json', JSON.stringify(Nisa.base64EncodedAuthInfo(), null, '\t'))
+nisabotz.on('chat-update', async (message) => {
+require('./index.js')(Nisa, message)})}
 function nocache(module, cb = () => { }) {
-console.log('[ ! ]', `'${module}'`, 'DI Pantau Oleh Lexxy Official')
+console.log('[ ! ]', `'${module}'`, 'DI Pantau Oleh Nisabotz')
 fs.watchFile(require.resolve(module), async () => {
 await uncache(require.resolve(module))
 cb(module)})}
