@@ -1,8 +1,8 @@
 exports.paymentstore = (owner) => {
 return `*PAYMENT STORE*
-Dana : 0881-7864-684
-Ovo : 0823-1646-4080
-Pulsa : 0823-1646-4080
+Dana : 08
+Gopay : 0896-5445-1511
+Pulsa : 0895-2863-9613
 
 Note :
 Jika Sudah Transfer Wajib Kirim
@@ -14,7 +14,7 @@ Wa.me/${owner}
 }
 
 exports.diamondFF = () => {
-return`*DROP DATA DIAMOND FF*
+return `*DROP DATA DIAMOND FF*
 • VIA ID
 • LEGAL 100%
 • PROSES 1-7 MENIT
@@ -33,65 +33,6 @@ return`*DROP DATA DIAMOND FF*
 
 *Member Mingguan Rp 28.800*
 *Member Bulanan Rp 138.000*
-
-Note : 
-• Harga sewaktu waktu berubah
-• Pastikan ID Sudah benar
-• Pemesanan lebih tinggal x kan saja
-• Kesalahan Pengirim data tidak ada reff
-`
-}
-
-exports.hagostore = () => {
-return `*DROP DATA DIAMOND HAGO*
-• VIA ID
-• LEGAL 100%
-• PROSES 1-3 MENIT
-
-*6 💎 Rp 2.000*
-*45 💎 Rp 15.000*
-*90 💎 Rp 30.000*
-*225 💎 Rp 74.000*
-*375 💎 Rp 121.000*
-*900 💎 Rp 291.000*
-*1650 💎 Rp 531.000*
-
-Note : 
-• Harga sewaktu waktu berubah
-• Pastikan ID Sudah benar
-• Pemesanan lebih tinggal x kan saja
-• Kesalahan Pengirim data tidak ada reff
-`
-}
-
-exports.chipstore = () => {
-return `Note : 
-• Harga sewaktu waktu berubah
-• Pastikan ID & Server Sudah benar
-• Pemesanan lebih tinggal x kan saja
-• Kesalahan Pengirim data tidak ada reff
-
-*DROP DATA CHIP*
-• VIA ID + NICK
-• LEGAL 100%
-• PROSES 1-5 MENIT
-• STOK UNLIMITED
-
-*30M Koin Emas-D Rp 6.000*
-*60M Koin Emas-D Rp 12.000*
-*90M Koin Emas-D Rp 18.000*
-*100M Koin Emas-D Rp 19.500*
-*200M Koin Emas-D Rp 31.000*
-*400M Koin Emas-D Rp 62.000*
-*430M Koin Emas-D Rp 68.000*
-*500M Koin Emas-D Rp 81.500*
-*2B Koin Emas-D Rp 251.000*
-*4B Koin Emas-D Rp 502.000*
-*6B Koin Emas-D Rp 753.000*
-*8B Koin Emas-D Rp 1.004.000*
-*10B Koin Emas-D Rp 1.255.000*
-*12B Koin Emas-D Rp 1.506.000*
-*14B Koin Emas-D Rp 1.757.000*
 
 Note : 
 • Harga sewaktu waktu berubah
@@ -238,9 +179,9 @@ return`*HAI KAK MAU BENERAN DONASI ATAU TIDAK KAK*
 *SEMOGA TIDAK DILIHAT DOANG*
 
 *PAYMENT BOT*
-DANA: (0857-8900-4732)
-OVO: (0822-7991-5237)
-PULSA: (0822-7991-5237)
+DANA: (08)
+GOPAY: (089654451511)
+PULSA: (089528639613)
 
 *TERIMA KASIH KAK*
 *LOVE YOU😋*`
